@@ -1,0 +1,48 @@
+name: firebase_task_manager
+description: A new Flutter project.
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  #icons
+  cupertino_icons: ^1.0.2
+
+  #state_management
+  get: ^4.6.5
+
+  #routing
+  go_router: ^6.2.0
+
+  #firebase
+  firebase_core: ^2.8.0
+
+  #firebase-cloud-database
+  cloud_firestore: ^4.4.5
+
+  #date_time_hanlder
+  omni_datetime_picker: ^1.0.1
+  shared_preferences: ^2.0.18
+
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  # assets:
+
+  # fonts:
